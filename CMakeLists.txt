@@ -7,7 +7,7 @@ include_directories(include)
 
 add_message_files(
   DIRECTORY msg
-  FILES Octomap.msg OctomapWithPose.msg
+  FILES Octomap.msg OctomapWithPose.msg ContactSensor.msg ContactSensorArray.msg
   )
 
 add_service_files(
